@@ -1,0 +1,6 @@
+Flask==2.3.6
+numpy
+scipy
+librosa
+matplotlib
+
