@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.mp3
+*.wav
+*.png
+*.log
+.env
+.git
+.gitignore
+tmp/*

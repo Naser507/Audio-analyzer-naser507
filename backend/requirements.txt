@@ -1,6 +1,6 @@
-Flask==2.3.6
-numpy
-scipy
+flask
 librosa
 matplotlib
+numpy
+
 

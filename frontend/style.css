@@ -1,0 +1,60 @@
+/* style.css - Purple theme for Audio Analyzer */
+
+body {
+    background-color: #2e1a47; /* dark purple background */
+    color: #f0e6ff;           /* light purple text */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #d9b3ff;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #3b1f60; /* slightly lighter purple */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #b39ddb;
+    background-color: #4a2378;
+    color: #f0e6ff;
+}
+
+button {
+    background-color: #b39ddb; /* pastel purple */
+    color: #2e1a47;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #d9b3ff;
+    color: #2e1a47;
+    transform: scale(1.05);
+}
+
+.result {
+    margin-top: 20px;
+    background-color: #4a2378;
+    padding: 15px;
+    border-radius: 10px;
+}
